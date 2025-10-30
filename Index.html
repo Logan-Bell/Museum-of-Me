@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Museum of Me</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+</head>
+
+<body>
+    <header>
+
+    <a href="Index.html" class="logo">
+        <span class="logo-sm">Museum of</span>
+        <span class="logo-lrg">Me</span>
+    </a>
+    <nav>
+        <ul class="flex-nav">
+        <li><a href="Archive.html">Current Stats</a></li>
+        <li><a href="Current.html">Archive</a></li>
+        <li><a href="Logs.html">Logs</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+    <section class="purple-bkg">
+        <div class="wrapper">
+            <h1>Things I use</h1>
+            <div class="grid-parent-slider">
+                <div><model-viewer src="assets/slippers.glb" auto-rotate camera-controls></model-viewer></div>
+                <div><p>stuff and things</p>
+                    <a href="#" class="button">Button</a></div>
+            </div>
+    </div>
+    </section>
+    <section class="yellow-bkg">
+        <div class="wrapper">
+        <h1>People I See</h1>
+        <div class="grid-parent-people">
+            <div><img src="images/Dad.png" alt="Dad">
+                <p>Dad</p></div>
+            <div><img src="images/Mom.png" alt="Mom">
+                <p>Mom</p></div>
+            <div><img src="images/Cambria.png" alt="Cambria">
+                <p>Cambria</p></div>
+            <div><img src="images/Kenny.png" alt="Kenny">
+                <p>Kenny</p></div>
+        </div>
+    </div>
+    </section>
+    <section class="green-bkg">
+        <div class="wrapper">
+        <h1>Places I've Been</h1>
+        <img class="map" src="images/Map.png" alt="Map">
+    </div>
+    </section>
+    <section class="pink-bkg">
+        <div class="wrapper">
+        <h1>Things I Hear</h1>
+        <div class="grid-parent-sound">
+            <div><p>sounds</p>
+                <audio  controls>
+                    <source src="assets/cat_meow.mp3" 
+                    type="audio/mp3">
+                </audio></div>
+            <div><p>sounds</p>
+                <audio  controls>
+                    <source src="assets/cat_meow.mp3" 
+                    type="audio/mp3">
+                </audio></div>
+            <div><p>sounds</p>
+                <audio  controls>
+                    <source src="assets/cat_meow.mp3" 
+                    type="audio/mp3">
+                </audio></div>
+        </div>
+    </div>
+    </section>
+    </main>
+</body>
+
+</html>
